@@ -1,159 +1,159 @@
 /* Universal Selector, turns into border box w/o padding or margin, makes scrolling smooth for nav links*/
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
 }
 
 /* body element, colors content background to near-white */
 body {
-  background-color: #d9dcd6;
+	background-color: #d9dcd6;
 }
 
 /* Header element, sets font, background color, and font color */
 header {
-  padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
+	padding: 20px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	background-color: #2a607c;
+	color: #ffffff;
 }
 
 /* alters the font size and display style of the h1 element in the header */
 header h1 {
-  display: inline-block;
-  font-size: 48px;
+	display: inline-block;
+	font-size: 48px;
 }
 
 /* alters the "seo" in Horiseon in the header h1 element to be a different color using span */
 header h1 .seo {
-  color: #d9dcd6;
+	color: #d9dcd6;
 }
 
 /* Alters the style for the nav within the header element */
 header nav {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+	padding-top: 15px;
+	margin-right: 20px;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
 }
 
 /* alters the unordered list in the nav of the header to remove the list style */
 header nav ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 /* the list items of the unordered list are inline block, allowing for alterations to margin/padding */
 header nav ul li {
-  display: inline-block;
-  margin-left: 25px;
+	display: inline-block;
+	margin-left: 25px;
 }
 
 /* anchor element, removes the default text decoration and alters the text color to white */
 a {
-  color: #ffffff;
-  text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 /* p element, text will have a font size of 16px */
 p {
-  font-size: 16px;
-}
-
-/* footer element, hidden with visibility tag */
-footer {
-  padding: 30px;
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  visibility: hidden;
-}
-
-/* h2 elements within the footer element, setting font size to 20 */
-footer h2 {
-  font-size: 20px;
-}
-
-/*large picture near the top of the page, sets height of picture, as well as expanding to width of the body and giving a margin on the bottom of the page */
-.hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-/* floats the class to the left of the container, in this case images*/
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-/* floats the class to the right of the container, in this case images */
-.float-right {
-  float: right;
-  margin-left: 25px;
+	font-size: 16px;
 }
 
 /* main element. Removed content class. Sets the width of the container to 75% of the page, and has the child elements stacked on one another */
 main {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
 }
+
+/* footer element, hidden with visibility tag */
+footer {
+	padding: 30px;
+	clear: both;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	text-align: center;
+	visibility: hidden;
+}
+
+/* h2 elements within the footer element, setting font size to 20 */
+footer h2 {
+	font-size: 20px;
+}
+
+/*large picture near the top of the page, sets height of picture, as well as expanding to width of the body and giving a margin on the bottom of the page */
+.hero {
+	height: 800px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/* floats the class to the left of the container, in this case images*/
+.float-left {
+	float: left;
+	margin-right: 25px;
+}
+
+/* floats the class to the right of the container, in this case images */
+.float-right {
+	float: right;
+	margin-left: 25px;
+}
+
 /* advantages class, changed from benifits class due to close relation in name to another class. Sets areas around the container, 
 as well as setting a different font from the main page and coloring the background in a different blue*/
-
 .advantages {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
+	margin-right: 20px;
+	padding: 20px;
+	clear: both;
+	float: right;
+	width: 20%;
+	height: 100%;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #2589bd;
 }
 
 /* benifit class, setting a margin on the bottom and the font color to white */
 .benefit {
-  margin-bottom: 32px;
-  color: #ffffff;
+	margin-bottom: 32px;
+	color: #ffffff;
 }
 
 /* h3 elements within benifit class, centering the text and giving the bottom a margin */
 .benefit h3 {
-  margin-bottom: 10px;
-  text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 /* img elements within benifit class, setting a max image height and centering the pictures in the container*/
 .benefit img {
-  display: block;
-  margin-bottom: 10px;
-  max-width: 150px;
-  margin: 10px auto;
+	display: block;
+	margin-bottom: 10px;
+	max-width: 150px;
+	margin: 10px auto;
 }
 
 /* content class, moved from main element. Replaced individual classes for each of the assigned containers.
  Sets the container height and padding, adds a margin to the bottom of container. Sets the background color and text color to blue and white respectively */
 .content {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
 }
 
 /* img elements within the sectionContent class, sets max image height to 200px */
 .content img {
-  max-height: 200px;
+	max-height: 200px;
 }
 
 /* h2 elements wilthin the sectionContent class, sets the font size and bottom margin */
 .content h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+	margin-bottom: 20px;
+	font-size: 36px;
 }
