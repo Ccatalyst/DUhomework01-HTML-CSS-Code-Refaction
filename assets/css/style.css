@@ -96,14 +96,15 @@ footer h2 {
   margin-left: 25px;
 }
 
-/* content class, sets the width of the container to 75% of the page, and has the child elements stacked on one another */
-.content {
+/* main element. Removed content class. Sets the width of the container to 75% of the page, and has the child elements stacked on one another */
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 /* advantages class, changed from benifits class due to close relation in name to another class. Sets areas around the container, 
 as well as setting a different font from the main page and coloring the background in a different blue*/
+
 .advantages {
   margin-right: 20px;
   padding: 20px;
@@ -131,13 +132,13 @@ as well as setting a different font from the main page and coloring the backgrou
 .benefit img {
   display: block;
   margin-bottom: 10px;
-  max-height: 200px;
-  margin: 0 auto;
+  max-width: 150px;
+  margin: 10px auto;
 }
 
-/* sectionContent class, replaced individual classes for each of the assigned containers.
+/* content class, moved from main element. Replaced individual classes for each of the assigned containers.
  Sets the container height and padding, adds a margin to the bottom of container. Sets the background color and text color to blue and white respectively */
-.sectionContent {
+.content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -147,12 +148,12 @@ as well as setting a different font from the main page and coloring the backgrou
 }
 
 /* img elements within the sectionContent class, sets max image height to 200px */
-.sectionContent img {
+.content img {
   max-height: 200px;
 }
 
 /* h2 elements wilthin the sectionContent class, sets the font size and bottom margin */
-.sectionContent h2 {
+.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
